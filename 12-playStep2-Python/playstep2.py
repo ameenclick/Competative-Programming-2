@@ -59,5 +59,3 @@ def playstep2(hand, dice):
 
 	return (keep,dice)
 
-
-print(playstep2(544, 23))
