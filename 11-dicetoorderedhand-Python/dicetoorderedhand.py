@@ -11,5 +11,10 @@
 
 
 def dicetoorderedhand(a, b, c):
-	# your code goes here
-	pass
+	l=[a,b,c]
+	l=sorted(l)[::-1]
+	result=0
+	for e in l:
+		result=result*10+e
+	return result
+
